@@ -11,9 +11,10 @@
     <modules>
         <module>algorithms</module>
         <module>arrays</module>
-        <module>oops_concepts</module>
+        <module>oopsconcepts</module>
         <module>constructor</module>
-        <module>design-patterns</module>
+
+
     </modules>
 
     <properties>

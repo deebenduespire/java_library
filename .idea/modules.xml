@@ -2,19 +2,25 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/oops_concepts/abstract/abstract.iml" filepath="$PROJECT_DIR$/oops_concepts/abstract/abstract.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopsconcepts/abstract/abstract.iml" filepath="$PROJECT_DIR$/oopsconcepts/abstract/abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" filepath="$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/arrayofobjects/arrayofobjects.iml" filepath="$PROJECT_DIR$/arrays/arrayofobjects/arrayofobjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor.iml" filepath="$PROJECT_DIR$/constructor/constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" filepath="$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" filepath="$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" />
-      <module fileurl="file://$PROJECT_DIR$/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/design-patterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oops_concepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oops_concepts/encapsulation/encapsulation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oops_concepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oops_concepts/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/copyingofarray/copyingofarray.iml" filepath="$PROJECT_DIR$/arrays/copyingofarray/copyingofarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopsconcepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oopsconcepts/encapsulation/encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopsconcepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oopsconcepts/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_library.iml" filepath="$PROJECT_DIR$/.idea/java_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oops_concepts/oops_concepts.iml" filepath="$PROJECT_DIR$/oops_concepts/oops_concepts.iml" />
-      <module fileurl="file://$PROJECT_DIR$/oops_concepts/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/oops_concepts/polymorphism/polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopsconcepts/oopsconcepts.iml" filepath="$PROJECT_DIR$/oopsconcepts/oopsconcepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oopsconcepts/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/oopsconcepts/polymorphism/polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/reversecopying/reversecopying.iml" filepath="$PROJECT_DIR$/arrays/reversecopying/reversecopying.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/rotationofarray/rotationofarray.iml" filepath="$PROJECT_DIR$/arrays/rotationofarray/rotationofarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/singledimensional/singledimensional.iml" filepath="$PROJECT_DIR$/arrays/singledimensional/singledimensional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/swappingarray/swappingarray.iml" filepath="$PROJECT_DIR$/arrays/swappingarray/swappingarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arrays/twodimensional/twodimensional.iml" filepath="$PROJECT_DIR$/arrays/twodimensional/twodimensional.iml" />
     </modules>
   </component>
 </project>
