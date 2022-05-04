@@ -4,10 +4,12 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/algorithms/analysis_of_algorithms/pom.xml" />
+        <option value="$PROJECT_DIR$/arrays/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="corretto-11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>
