@@ -8,13 +8,13 @@
     <artifactId>library</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
         <module>algorithms</module>
         <module>arrays</module>
         <module>oopsconcepts</module>
         <module>constructor</module>
-
-
+        <module>design-patterns</module>
     </modules>
 
     <properties>
