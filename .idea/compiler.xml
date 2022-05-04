@@ -14,6 +14,7 @@
         <module name="abstract" />
         <module name="constructor_chaining" />
         <module name="constructor_calling" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="constructor" target="11" />
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
+      <module name="design-patterns" target="11" />
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
