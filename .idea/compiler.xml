@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="copyingofarray" />
-        <module name="twodimensional" />
         <module name="constructor_chaining" />
         <module name="inheritance" />
         <module name="rotationofarray" />
         <module name="reversecopying" />
+        <module name="twodimensional" />
         <module name="analysis_of_algorithms" />
         <module name="arrayofobjects" />
         <module name="encapsulation" />
@@ -35,7 +35,7 @@
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
-      <module name="oops_concepts" target="11" />
+      <module name="oopsconcepts" target="11" />
       <module name="polymorphism" target="11" />
       <module name="reversecopying" target="11" />
       <module name="rotationofarray" target="11" />
