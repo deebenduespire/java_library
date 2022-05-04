@@ -10,6 +10,8 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>algorithms</module>
+        <module>arrays</module>
+        <module>oops_concepts</module>
     </modules>
 
     <properties>

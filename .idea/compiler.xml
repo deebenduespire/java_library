@@ -6,15 +6,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="analysis_of_algorithms" />
         <module name="arrays" />
+        <module name="inheritance" />
+        <module name="encapsulation" />
+        <module name="abstract" />
+        <module name="polymorphism" />
+        <module name="analysis_of_algorithms" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="abstract" target="11" />
       <module name="algorithms" target="11" />
       <module name="analysis_of_algorithms" target="11" />
-      <module name="arrays" target="11" />
+      <module name="arrays" target="1.5" />
+      <module name="encapsulation" target="11" />
+      <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
+      <module name="oops_concepts" target="11" />
+      <module name="polymorphism" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
