@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" filepath="$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/arrays.iml" filepath="$PROJECT_DIR$/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor.iml" filepath="$PROJECT_DIR$/constructor/constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" filepath="$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" filepath="$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops_concepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oops_concepts/encapsulation/encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops_concepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oops_concepts/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_library.iml" filepath="$PROJECT_DIR$/.idea/java_library.iml" />

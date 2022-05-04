@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="arrays" />
-        <module name="inheritance" />
-        <module name="encapsulation" />
-        <module name="abstract" />
-        <module name="polymorphism" />
         <module name="analysis_of_algorithms" />
+        <module name="encapsulation" />
+        <module name="inheritance" />
+        <module name="polymorphism" />
+        <module name="arrays" />
+        <module name="abstract" />
+        <module name="constructor_chaining" />
+        <module name="constructor_calling" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,9 @@
       <module name="algorithms" target="11" />
       <module name="analysis_of_algorithms" target="11" />
       <module name="arrays" target="1.5" />
+      <module name="constructor" target="11" />
+      <module name="constructor_calling" target="11" />
+      <module name="constructor_chaining" target="11" />
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
