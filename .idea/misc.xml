@@ -11,7 +11,6 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/arrayofobjects/pom.xml" />
-        <option value="$PROJECT_DIR$/design-patterns/pom.xml" />
         <option value="$PROJECT_DIR$/singledimensional/pom.xml" />
       </set>
     </option>

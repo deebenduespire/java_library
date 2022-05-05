@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" filepath="$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" filepath="$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" />
       <module fileurl="file://$PROJECT_DIR$/arrays/copyingofarray/copyingofarray.iml" filepath="$PROJECT_DIR$/arrays/copyingofarray/copyingofarray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/design-patterns.iml" />
       <module fileurl="file://$PROJECT_DIR$/oopsconcepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oopsconcepts/encapsulation/encapsulation.iml" />
       <module fileurl="file://$PROJECT_DIR$/oopsconcepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oopsconcepts/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_library.iml" filepath="$PROJECT_DIR$/.idea/java_library.iml" />
