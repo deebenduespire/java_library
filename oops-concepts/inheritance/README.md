@@ -6,6 +6,6 @@ In Java, it is possible to inherit attributes and methods from one class to anot
 
 To inherit from a class, use the **extends** keyword.
 
-####types :
+#### types :
 
 ![inheritance](https://sp-ao.shortpixel.ai/client/to_avif,q_glossy,ret_img,w_1024/https://simplesnippets.tech/wp-content/uploads/2018/04/java-types-of-inheritance-1024x670.jpg)

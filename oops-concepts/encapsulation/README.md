@@ -7,5 +7,5 @@ To achieve this, you must:
 
 ![Encapsulation](https://www.simplilearn.com/ice9/free_resources_article_thumb/Encapsulation_in_Java.png)
 -------
-####Advantages
+#### Advantages
 ![usage](https://www.simplilearn.com/ice9/free_resources_article_thumb/why_we_need_encapsulation-Encapsulation_in_Java.png)
