@@ -16,5 +16,10 @@ public class Main {
 
         ProductFilter filter = new ProductFilter();
         filter.filter(products, new ColorSpecification(Color.GREEN)).forEach((product) -> System.out.println("Color is green"));
+
+        filter.filter(products, new AndSpecification<>(
+                new ColorSpecification(Color.GREEN),
+                new SizeSpecification(Size.LARGE)))
+                .forEach(product -> System.out.println("Green Apple large in size"));
     }
 }
