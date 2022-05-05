@@ -2,29 +2,30 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="analysis_of_algorithms" />
-        <module name="copyingofarray" />
-        <module name="encapsulation" />
-        <module name="twodimensional" />
-        <module name="inheritance" />
-        <module name="polymorphism" />
-        <module name="abstract" />
-        <module name="constructor_chaining" />
-        <module name="rotationofarray" />
-        <module name="singledimensional" />
-        <module name="swappingarray" />
-        <module name="arrayofobjects" />
-        <module name="reversecopying" />
-        <module name="constructor_calling" />
         <module name="design-patterns" />
+        <module name="copyingofarray" />
+        <module name="constructor_chaining" />
+        <module name="inheritance" />
+        <module name="rotationofarray" />
+        <module name="reversecopying" />
+        <module name="twodimensional" />
+        <module name="analysis_of_algorithms" />
+        <module name="arrayofobjects" />
+        <module name="encapsulation" />
+        <module name="constructor_calling" />
+        <module name="polymorphism" />
+        <module name="swappingarray" />
+        <module name="singledimensional" />
+        <module name="abstraction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="abstract" target="11" />
+      <module name="abstraction" target="11" />
       <module name="algorithms" target="11" />
       <module name="analysis_of_algorithms" target="11" />
       <module name="arrayofobjects" target="11" />
@@ -37,7 +38,7 @@
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
-      <module name="oopsconcepts" target="11" />
+      <module name="oops-concepts" target="11" />
       <module name="polymorphism" target="11" />
       <module name="reversecopying" target="11" />
       <module name="rotationofarray" target="11" />
