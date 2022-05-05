@@ -6,20 +6,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="copyingofarray" />
-        <module name="constructor_chaining" />
-        <module name="inheritance" />
-        <module name="rotationofarray" />
-        <module name="reversecopying" />
-        <module name="twodimensional" />
         <module name="analysis_of_algorithms" />
-        <module name="arrayofobjects" />
+        <module name="copyingofarray" />
         <module name="encapsulation" />
-        <module name="constructor_calling" />
+        <module name="twodimensional" />
+        <module name="inheritance" />
         <module name="polymorphism" />
-        <module name="swappingarray" />
         <module name="abstract" />
+        <module name="constructor_chaining" />
+        <module name="rotationofarray" />
         <module name="singledimensional" />
+        <module name="swappingarray" />
+        <module name="arrayofobjects" />
+        <module name="reversecopying" />
+        <module name="constructor_calling" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -32,6 +33,7 @@
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
       <module name="copyingofarray" target="11" />
+      <module name="design-patterns" target="11" />
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
