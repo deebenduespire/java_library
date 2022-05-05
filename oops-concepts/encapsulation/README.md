@@ -1,4 +1,4 @@
-##Encapsulation
+## Encapsulation
 The meaning of **Encapsulation**, is to make sure that "sensitive" data is hidden from users.
 
 To achieve this, you must:

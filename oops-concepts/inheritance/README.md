@@ -1,4 +1,4 @@
-##Inheritance
+## Inheritance
 In Java, it is possible to inherit attributes and methods from one class to another. We group the "inheritance concept" into two categories:
 
 1. subclass (child) - the class that inherits from another class
