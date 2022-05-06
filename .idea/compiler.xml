@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="analysis_of_algorithms" />
-        <module name="linkedlist" />
         <module name="encapsulation" />
         <module name="copyingofarray" />
+        <module name="linkedlist" />
         <module name="twodimensional" />
         <module name="abstraction" />
         <module name="inheritance" />
