@@ -7,22 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="design-patterns" />
-        <module name="copyingofarray" />
-        <module name="inheritance" />
-        <module name="constructor_chaining" />
-        <module name="reversecopying" />
-        <module name="twodimensional" />
-        <module name="rotationofarray" />
         <module name="analysis_of_algorithms" />
-        <module name="linkedlist" />
-        <module name="arrayofobjects" />
+        <module name="copyingofarray" />
         <module name="encapsulation" />
-        <module name="constructor_calling" />
-        <module name="polymorphism" />
-        <module name="swappingarray" />
-        <module name="singledimensional" />
+        <module name="linkedlist" />
+        <module name="twodimensional" />
         <module name="abstraction" />
+        <module name="inheritance" />
+        <module name="polymorphism" />
+        <module name="constructor_chaining" />
+        <module name="rotationofarray" />
+        <module name="singledimensional" />
+        <module name="swappingarray" />
+        <module name="arrayofobjects" />
+        <module name="reversecopying" />
+        <module name="constructor_calling" />
+        <module name="exception_handling" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -38,6 +39,7 @@
       <module name="datastructures" target="11" />
       <module name="design-patterns" target="11" />
       <module name="encapsulation" target="11" />
+      <module name="exception_handling" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
       <module name="linkedlist" target="11" />

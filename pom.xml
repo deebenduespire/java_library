@@ -13,6 +13,7 @@
         <module>algorithms</module>
         <module>oops-concepts</module>
         <module>constructor</module>
+        <module>exception_handling</module>
         <module>design-patterns</module>
         <module>datastructures</module>
     </modules>
