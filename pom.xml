@@ -12,7 +12,7 @@
     <modules>
         <module>algorithms</module>
         <module>arrays</module>
-        <module>oopsconcepts</module>
+        <module>oops-concepts</module>
         <module>constructor</module>
         <module>design-patterns</module>
     </modules>
