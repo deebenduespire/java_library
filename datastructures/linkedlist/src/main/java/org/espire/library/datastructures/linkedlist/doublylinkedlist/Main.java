@@ -22,5 +22,15 @@ public class Main {
         System.out.println("---------- After deleting last operation ------------");
         dl.deleteLast();
         dl.display();
+
+        System.out.println();
+        System.out.println("-------------------------------------");
+        dl.insertAtPos(60,5);
+        dl.display();
+
+        System.out.println();
+        System.out.println("-------------------------------------");
+        dl.deleteAtPos(2);
+        dl.display();
     }
 }
