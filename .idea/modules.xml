@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" filepath="$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructures/arrays/arrayofobjects/arrayofobjects.iml" filepath="$PROJECT_DIR$/datastructures/arrays/arrayofobjects/arrayofobjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastructures/arrays/arrays.iml" filepath="$PROJECT_DIR$/datastructures/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastructures/binarysearchtee/binarysearchtree.iml" filepath="$PROJECT_DIR$/datastructures/binarysearchtee/binarysearchtree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datastructures/binarytree/binarytree.iml" filepath="$PROJECT_DIR$/datastructures/binarytree/binarytree.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor.iml" filepath="$PROJECT_DIR$/constructor/constructor.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" filepath="$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" />
       <module fileurl="file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" filepath="$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" />

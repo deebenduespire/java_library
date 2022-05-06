@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="analysis_of_algorithms" />
-        <module name="copyingofarray" />
-        <module name="encapsulation" />
         <module name="linkedlist" />
+        <module name="encapsulation" />
+        <module name="copyingofarray" />
         <module name="twodimensional" />
         <module name="abstraction" />
         <module name="inheritance" />
@@ -32,6 +32,8 @@
       <module name="analysis_of_algorithms" target="11" />
       <module name="arrayofobjects" target="11" />
       <module name="arrays" target="11" />
+      <module name="binarysearchtree" target="11" />
+      <module name="binarytree" target="11" />
       <module name="constructor" target="11" />
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
