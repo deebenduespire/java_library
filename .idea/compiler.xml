@@ -9,12 +9,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design-patterns" />
         <module name="copyingofarray" />
-        <module name="constructor_chaining" />
         <module name="inheritance" />
-        <module name="rotationofarray" />
+        <module name="constructor_chaining" />
         <module name="reversecopying" />
         <module name="twodimensional" />
+        <module name="rotationofarray" />
         <module name="analysis_of_algorithms" />
+        <module name="linkedlist" />
         <module name="arrayofobjects" />
         <module name="encapsulation" />
         <module name="constructor_calling" />
@@ -34,10 +35,12 @@
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
       <module name="copyingofarray" target="11" />
+      <module name="datastructures" target="11" />
       <module name="design-patterns" target="11" />
       <module name="encapsulation" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
+      <module name="linkedlist" target="11" />
       <module name="oops-concepts" target="11" />
       <module name="polymorphism" target="11" />
       <module name="reversecopying" target="11" />
