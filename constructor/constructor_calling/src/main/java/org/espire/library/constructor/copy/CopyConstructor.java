@@ -16,7 +16,7 @@ public class CopyConstructor {
   }
 
   //copy constructor
-  CopyConstructor(CopyConstructor copy) {
+  public CopyConstructor(CopyConstructor copy) {
     System.out.println("Copy constructor called ");
     id = copy.id;
     name = copy.name;
@@ -28,15 +28,5 @@ public class CopyConstructor {
         "id=" + id +
         ", name='" + name + '\'' +
         '}';
-  }
-
-  public static void main(String args[]) {
-
-    CopyConstructor obj1 = new CopyConstructor(1, "lavi");
-
-    //call copy constructor
-    CopyConstructor obj2 = new CopyConstructor(obj1);
-
-    System.out.println(obj2);
   }
 }

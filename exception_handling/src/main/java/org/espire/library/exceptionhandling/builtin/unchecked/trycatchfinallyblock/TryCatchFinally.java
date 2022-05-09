@@ -5,7 +5,7 @@ package org.espire.library.exceptionhandling.builtin.unchecked.trycatchfinallybl
  * */
 public class TryCatchFinally {
 
-  private void getDivision(Integer a, Integer b){
+  public void getDivision(Integer a, Integer b){
 
     try {
       Integer c = a/b;
@@ -17,10 +17,5 @@ public class TryCatchFinally {
     finally{
       System.out.println("final block");
     }
-  }
-
-  public static void main(String args[]){
-    TryCatchFinally obj = new TryCatchFinally();
-    obj.getDivision(1,0);
   }
 }

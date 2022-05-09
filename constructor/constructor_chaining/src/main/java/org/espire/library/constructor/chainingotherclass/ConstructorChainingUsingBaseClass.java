@@ -1,10 +1,10 @@
-package org.espire.library.constructor;
+package org.espire.library.constructor.chainingotherclass;
 
 /**
  * Chaining constructor using super()
  * */
 
-public class ConstructorChainingUsingBaseClass extends BaseClass{
+public class ConstructorChainingUsingBaseClass extends BaseClass {
 
   //constructor 3
   public ConstructorChainingUsingBaseClass() {
@@ -18,11 +18,6 @@ public class ConstructorChainingUsingBaseClass extends BaseClass{
     System.out.println("Parameterized constructor of main");
   }
 
-  public static void main(String args[]){
 
-    ConstructorChainingUsingBaseClass obj = new ConstructorChainingUsingBaseClass("lavi");
-
-    ConstructorChainingUsingBaseClass obj2 = new ConstructorChainingUsingBaseClass();
-  }
 
 }

@@ -1,4 +1,4 @@
-package org.espire.library.constructor;
+package org.espire.library.constructor.chaining;
 
 /**
  * Constructor chaining : calling one constructor from another constructor
@@ -25,8 +25,4 @@ public class ConstructorChaining {
     System.out.println(id + " " + name);
   }
 
-  public static void main(String args[]){
-    //calling dafault constructor
-    new ConstructorChaining();
-  }
 }

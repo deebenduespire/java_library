@@ -18,12 +18,4 @@ public class ConstructorOverloading {
     System.out.println("Two argument : " + id + " " + name);
   }
 
-  public static void main(String args[]) {
-
-    ConstructorOverloading obj1 = new ConstructorOverloading(1);
-
-    ConstructorOverloading obj2 = new ConstructorOverloading(45567786778L);
-
-    ConstructorOverloading obj3 = new ConstructorOverloading(2, "abc");
-  }
 }

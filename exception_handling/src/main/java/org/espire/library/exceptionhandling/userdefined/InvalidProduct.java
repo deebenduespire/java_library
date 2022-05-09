@@ -10,14 +10,4 @@ public class InvalidProduct {
       throw new CustomException("Product Invalid");
     }
   }
-
-  public static void main(String args[]) {
-    InvalidProduct obj = new InvalidProduct();
-
-    try {
-      obj.checkWeight(60);
-    } catch (CustomException exception) {
-      System.out.println("caught exception " + exception);
-    }
-  }
 }

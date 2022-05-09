@@ -7,7 +7,8 @@ import java.io.FileInputStream;
  * File not found exception
  * */
 public class HandleFileNotFoundException {
-  private void getFile() {
+
+  public void getFile() {
     File file = new File("D:\\BackupFile\\java_library.txt");
 
     //handle with try catch
@@ -16,10 +17,5 @@ public class HandleFileNotFoundException {
     } catch (java.io.FileNotFoundException e) {
       System.out.println("exception caught " + e);
     }
-  }
-
-  public static void main(String args[]) {
-    HandleFileNotFoundException obj = new HandleFileNotFoundException();
-    obj.getFile();
   }
 }

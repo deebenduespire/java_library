@@ -1,8 +1,13 @@
 package org.espire.library.constructor.argument;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * Constructor with argument
  */
+@Getter
+@Setter
 public class ArgsConstructor {
 
   private Integer id;
@@ -13,14 +18,4 @@ public class ArgsConstructor {
     this.id = id;
     this.name = name;
   }
-
-  public static void main(String args[]) {
-
-    //invoke parameterized constructor
-    ArgsConstructor obj = new ArgsConstructor(1, "lavi");
-
-    System.out.println("id : " + obj.id + " name : " + obj.name);
-
-  }
-
 }

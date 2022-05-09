@@ -5,7 +5,7 @@ package org.espire.library.exceptionhandling.builtin.unchecked.arrayindexoutofbo
  */
 public class HandleArrayIndexOutOfBound {
 
-  private void getArray(Integer a[]) {
+  public void getArray(Integer a[]) {
     try {
       a[5] = 7;
       System.out.println(a[5]);
@@ -13,10 +13,5 @@ public class HandleArrayIndexOutOfBound {
       System.out.println("Avoid array index out of bounds exception " + exception);
 
     }
-  }
-
-  public static void main(String args[]) {
-    HandleArrayIndexOutOfBound obj = new HandleArrayIndexOutOfBound();
-    obj.getArray(new Integer[4]);
   }
 }
