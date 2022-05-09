@@ -20,6 +20,6 @@ class EmployeeTest {
 
     @Test
     void testSearchEmployee() {
-        assertEquals("shubham yadav",employee.searchEmployee("shubham yadav"));
+        assertEquals("record found",employee.searchEmployee("shubham yadav"));
     }
 }
