@@ -1,4 +1,4 @@
-package org.espire.library.arrays.arrayofobjects;
+package org.espire.library.datastructures.arrays;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
