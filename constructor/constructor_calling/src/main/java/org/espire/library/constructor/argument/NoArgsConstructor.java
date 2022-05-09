@@ -1,4 +1,4 @@
-package org.espire.library.constructor;
+package org.espire.library.constructor.argument;
 
 /**
  * Default constructor with no argument

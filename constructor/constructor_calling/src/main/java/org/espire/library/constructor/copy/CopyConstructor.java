@@ -1,4 +1,4 @@
-package org.espire.library.constructor;
+package org.espire.library.constructor.copy;
 
 /**
  * Copy constructor : java compiler does not call default copy constructor

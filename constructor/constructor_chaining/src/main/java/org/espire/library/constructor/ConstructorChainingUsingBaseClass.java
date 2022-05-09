@@ -1,4 +1,4 @@
-package org.espire.library.chaining.constructor;
+package org.espire.library.constructor;
 
 /**
  * Chaining constructor using super()

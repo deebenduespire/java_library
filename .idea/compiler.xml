@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="analysis_of_algorithms" />
         <module name="encapsulation" />
+        <module name="linkedlist" />
         <module name="copyingofarray" />
         <module name="array-of-objects" />
         <module name="twodimensional" />
@@ -34,12 +35,12 @@
       <module name="arrays" target="11" />
       <module name="binary-search-tree" target="1.5" />
       <module name="binary-tree" target="1.5" />
-      <module name="binarysearchtree" target="1.5" />
-      <module name="binarytree" target="1.5" />
+      <module name="binarysearchtree" target="11" />
+      <module name="binarytree" target="11" />
       <module name="constructor" target="11" />
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
-      <module name="copyingofarray" target="1.5" />
+      <module name="copyingofarray" target="11" />
       <module name="data-structures" target="11" />
       <module name="design-patterns" target="11" />
       <module name="encapsulation" target="11" />
@@ -47,14 +48,14 @@
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
       <module name="linked-list" target="1.5" />
-      <module name="linkedlist" target="1.5" />
+      <module name="linkedlist" target="11" />
       <module name="oops-concepts" target="11" />
       <module name="polymorphism" target="11" />
-      <module name="reversecopying" target="1.5" />
-      <module name="rotationofarray" target="1.5" />
-      <module name="singledimensional" target="1.5" />
-      <module name="swappingarray" target="1.5" />
-      <module name="twodimensional" target="1.5" />
+      <module name="reversecopying" target="11" />
+      <module name="rotationofarray" target="11" />
+      <module name="singledimensional" target="11" />
+      <module name="swappingarray" target="11" />
+      <module name="twodimensional" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -63,11 +64,18 @@
       <module name="array-of-objects" options="-parameters" />
       <module name="constructor_calling" options="-parameters" />
       <module name="constructor_chaining" options="-parameters" />
+      <module name="copyingofarray" options="-parameters" />
       <module name="design-patterns" options="-parameters" />
       <module name="encapsulation" options="-parameters" />
       <module name="exception_handling" options="-parameters" />
       <module name="inheritance" options="-parameters" />
+      <module name="linkedlist" options="-parameters" />
       <module name="polymorphism" options="-parameters" />
+      <module name="reversecopying" options="-parameters" />
+      <module name="rotationofarray" options="-parameters" />
+      <module name="singledimensional" options="-parameters" />
+      <module name="swappingarray" options="-parameters" />
+      <module name="twodimensional" options="-parameters" />
     </option>
   </component>
 </project>
