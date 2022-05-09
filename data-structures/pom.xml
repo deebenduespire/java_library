@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>library</artifactId>
         <groupId>org.espire</groupId>
+        <artifactId>library</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <packaging>pom</packaging>
@@ -22,6 +22,8 @@
         <module>arrays</module>
         <module>binary-search-tree</module>
         <module>binary-tree</module>
+        <module>linked-list</module>
+        <module>stack</module>
         <module>linked-list</module>
     </modules>
 </project>

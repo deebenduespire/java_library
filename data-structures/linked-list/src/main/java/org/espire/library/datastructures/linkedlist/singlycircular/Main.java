@@ -1,4 +1,4 @@
-package org.espire.library.datastructures.linkedlist.singlycircularlinkedlist;
+package org.espire.library.datastructures.linkedlist.singlycircular;
 
 public class Main {
     public static void main(String[] args) {

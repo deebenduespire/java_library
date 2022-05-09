@@ -7,22 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="analysis_of_algorithms" />
-        <module name="array-of-objects" />
-        <module name="encapsulation" />
-        <module name="swapping-array" />
-        <module name="abstraction" />
-        <module name="inheritance" />
-        <module name="polymorphism" />
-        <module name="constructor_chaining" />
-        <module name="copying-of-array" />
-        <module name="single-dimensional" />
-        <module name="reverse-copying" />
-        <module name="two-dimensional" />
-        <module name="rotation-of-array" />
-        <module name="constructor_calling" />
-        <module name="exception_handling" />
         <module name="design-patterns" />
+        <module name="analysis_of_algorithms" />
+        <module name="rotation-of-array" />
+        <module name="constructor_chaining" />
+        <module name="inheritance" />
+        <module name="single-dimensional" />
+        <module name="abstraction" />
+        <module name="array-of-objects" />
+        <module name="constructor_calling" />
+        <module name="copying-of-array" />
+        <module name="exception_handling" />
+        <module name="swapping-array" />
+        <module name="encapsulation" />
+        <module name="stack" />
+        <module name="linked-list" />
+        <module name="two-dimensional" />
+        <module name="polymorphism" />
+        <module name="reverse-copying" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -46,7 +48,8 @@
       <module name="exception_handling" target="11" />
       <module name="inheritance" target="11" />
       <module name="java_library" target="11" />
-      <module name="linked-list" target="1.5" />
+      <module name="linked-list" target="11" />
+      <module name="linked_list" target="11" />
       <module name="linkedlist" target="11" />
       <module name="oops-concepts" target="11" />
       <module name="polymorphism" target="11" />
@@ -56,6 +59,7 @@
       <module name="rotationofarray" target="11" />
       <module name="single-dimensional" target="11" />
       <module name="singledimensional" target="11" />
+      <module name="stack" target="11" />
       <module name="swapping-array" target="11" />
       <module name="swappingarray" target="11" />
       <module name="two-dimensional" target="11" />
@@ -73,6 +77,8 @@
       <module name="encapsulation" options="-parameters" />
       <module name="exception_handling" options="-parameters" />
       <module name="inheritance" options="-parameters" />
+      <module name="linked-list" options="-parameters" />
+      <module name="linked_list" options="-parameters" />
       <module name="linkedlist" options="-parameters" />
       <module name="polymorphism" options="-parameters" />
       <module name="reverse-copying" options="-parameters" />
@@ -81,6 +87,7 @@
       <module name="rotationofarray" options="-parameters" />
       <module name="single-dimensional" options="-parameters" />
       <module name="singledimensional" options="-parameters" />
+      <module name="stack" options="-parameters" />
       <module name="swapping-array" options="-parameters" />
       <module name="swappingarray" options="-parameters" />
       <module name="two-dimensional" options="-parameters" />

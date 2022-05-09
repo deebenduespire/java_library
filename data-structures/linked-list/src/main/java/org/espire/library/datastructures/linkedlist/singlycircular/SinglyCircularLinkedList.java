@@ -1,4 +1,4 @@
-package org.espire.library.datastructures.linkedlist.singlycircularlinkedlist;
+package org.espire.library.datastructures.linkedlist.singlycircular;
 
 class Node {
     protected int data;
