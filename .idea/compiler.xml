@@ -7,24 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="analysis_of_algorithms" />
-        <module name="encapsulation" />
-        <module name="linkedlist" />
-        <module name="array-of-objects" />
-        <module name="swapping-array" />
-        <module name="abstraction" />
-        <module name="inheritance" />
-        <module name="polymorphism" />
-        <module name="constructor_chaining" />
-        <module name="copying-of-array" />
-        <module name="single-dimensional" />
-        <module name="reverse-copying" />
-        <module name="two-dimensional" />
-        <module name="linked-list" />
-        <module name="rotation-of-array" />
-        <module name="constructor_calling" />
-        <module name="exception_handling" />
         <module name="design-patterns" />
+        <module name="analysis_of_algorithms" />
+        <module name="rotation-of-array" />
+        <module name="two-dimensional" />
+        <module name="single-dimensional" />
+        <module name="abstraction" />
+        <module name="array-of-objects" />
+        <module name="constructor_chaining" />
+        <module name="swapping-array" />
+        <module name="copying-of-array" />
+        <module name="exception_handling" />
+        <module name="linkedlist" />
+        <module name="encapsulation" />
+        <module name="constructor_calling" />
+        <module name="inheritance" />
+        <module name="linked-list" />
+        <module name="polymorphism" />
+        <module name="reverse-copying" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

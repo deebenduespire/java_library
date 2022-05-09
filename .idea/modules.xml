@@ -29,7 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/twodimensional/two-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/twodimensional/two-dimensional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml" />
     </modules>
   </component>
 </project>
