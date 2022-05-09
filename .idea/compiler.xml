@@ -7,24 +7,22 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="design-patterns" />
         <module name="analysis_of_algorithms" />
-        <module name="rotation-of-array" />
-        <module name="two-dimensional" />
-        <module name="single-dimensional" />
-        <module name="abstraction" />
         <module name="array-of-objects" />
-        <module name="constructor_chaining" />
-        <module name="swapping-array" />
-        <module name="copying-of-array" />
-        <module name="exception_handling" />
-        <module name="linkedlist" />
         <module name="encapsulation" />
-        <module name="constructor_calling" />
+        <module name="swapping-array" />
+        <module name="abstraction" />
         <module name="inheritance" />
-        <module name="linked-list" />
         <module name="polymorphism" />
+        <module name="constructor_chaining" />
+        <module name="copying-of-array" />
+        <module name="single-dimensional" />
         <module name="reverse-copying" />
+        <module name="two-dimensional" />
+        <module name="rotation-of-array" />
+        <module name="constructor_calling" />
+        <module name="exception_handling" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -33,8 +31,8 @@
       <module name="analysis_of_algorithms" target="11" />
       <module name="array-of-objects" target="11" />
       <module name="arrays" target="11" />
-      <module name="binary-search-tree" target="1.5" />
-      <module name="binary-tree" target="1.5" />
+      <module name="binary-search-tree" target="11" />
+      <module name="binary-tree" target="11" />
       <module name="binarysearchtree" target="11" />
       <module name="binarytree" target="11" />
       <module name="constructor" target="11" />

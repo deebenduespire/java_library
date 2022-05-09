@@ -21,8 +21,6 @@
       <module fileurl="file://$PROJECT_DIR$/exception_handling/exception_handling.iml" filepath="$PROJECT_DIR$/exception_handling/exception_handling.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/java_library.iml" filepath="$PROJECT_DIR$/.idea/java_library.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" />
-      <module fileurl="file://$PROJECT_DIR$/data-structures/linked-list/linkedlist.iml" filepath="$PROJECT_DIR$/data-structures/linked-list/linkedlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-concepts/oops-concepts.iml" filepath="$PROJECT_DIR$/oops-concepts/oops-concepts.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" filepath="$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" />
