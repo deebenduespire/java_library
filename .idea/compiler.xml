@@ -10,18 +10,18 @@
         <module name="analysis_of_algorithms" />
         <module name="encapsulation" />
         <module name="linkedlist" />
-        <module name="copyingofarray" />
         <module name="array-of-objects" />
-        <module name="twodimensional" />
+        <module name="swapping-array" />
         <module name="abstraction" />
         <module name="inheritance" />
         <module name="polymorphism" />
         <module name="constructor_chaining" />
-        <module name="rotationofarray" />
-        <module name="singledimensional" />
+        <module name="copying-of-array" />
+        <module name="single-dimensional" />
+        <module name="reverse-copying" />
+        <module name="two-dimensional" />
         <module name="linked-list" />
-        <module name="swappingarray" />
-        <module name="reversecopying" />
+        <module name="rotation-of-array" />
         <module name="constructor_calling" />
         <module name="exception_handling" />
         <module name="design-patterns" />
@@ -40,6 +40,7 @@
       <module name="constructor" target="11" />
       <module name="constructor_calling" target="11" />
       <module name="constructor_chaining" target="11" />
+      <module name="copying-of-array" target="11" />
       <module name="copyingofarray" target="11" />
       <module name="data-structures" target="11" />
       <module name="design-patterns" target="11" />
@@ -51,11 +52,15 @@
       <module name="linkedlist" target="11" />
       <module name="oops-concepts" target="11" />
       <module name="polymorphism" target="11" />
+      <module name="reverse-copying" target="11" />
       <module name="reversecopying" target="11" />
+      <module name="rotation-of-array" target="11" />
       <module name="rotationofarray" target="11" />
+      <module name="single-dimensional" target="11" />
       <module name="singledimensional" target="11" />
+      <module name="swapping-array" target="11" />
       <module name="swappingarray" target="11" />
-      <module name="twodimensional" target="11" />
+      <module name="two-dimensional" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -64,6 +69,7 @@
       <module name="array-of-objects" options="-parameters" />
       <module name="constructor_calling" options="-parameters" />
       <module name="constructor_chaining" options="-parameters" />
+      <module name="copying-of-array" options="-parameters" />
       <module name="copyingofarray" options="-parameters" />
       <module name="design-patterns" options="-parameters" />
       <module name="encapsulation" options="-parameters" />
@@ -71,11 +77,15 @@
       <module name="inheritance" options="-parameters" />
       <module name="linkedlist" options="-parameters" />
       <module name="polymorphism" options="-parameters" />
+      <module name="reverse-copying" options="-parameters" />
       <module name="reversecopying" options="-parameters" />
+      <module name="rotation-of-array" options="-parameters" />
       <module name="rotationofarray" options="-parameters" />
+      <module name="single-dimensional" options="-parameters" />
       <module name="singledimensional" options="-parameters" />
+      <module name="swapping-array" options="-parameters" />
       <module name="swappingarray" options="-parameters" />
-      <module name="twodimensional" options="-parameters" />
+      <module name="two-dimensional" options="-parameters" />
     </option>
   </component>
 </project>

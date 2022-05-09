@@ -2,26 +2,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
-        <artifactId>data-structures</artifactId>
-        <groupId>org.espire.library</groupId>
+        <groupId>org.espire.library.data-structures</groupId>
+        <artifactId>arrays</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-    <packaging>pom</packaging>
-    <groupId>org.espire.library.data-structures</groupId>
-    <artifactId>arrays</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <modelVersion>4.0.0</modelVersion>
 
-    <modules>
-        <module>array-of-objects</module>
-        <module>copying-of-array</module>
-        <module>reverse-copying</module>
-        <module>rotation-of-array</module>
-        <module>single-dimensional</module>
-        <module>swapping-array</module>
-        <module>two-dimensional</module>
-    </modules>
+    <artifactId>rotation-of-array</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.8.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 
     <build>
         <plugins>
