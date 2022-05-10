@@ -1,4 +1,6 @@
-package org.espire.library.arrays.copyingofarray;
+package org.espire.library.datastructures.arrays;
+
+import org.espire.library.datastructures.arrays.CopyingArray;
 
 public class Main {
     public static void main(String args[]){

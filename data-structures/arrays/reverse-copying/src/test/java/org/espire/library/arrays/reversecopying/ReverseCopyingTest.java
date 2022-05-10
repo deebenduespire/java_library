@@ -1,5 +1,6 @@
 package org.espire.library.arrays.reversecopying;
 
+import org.espire.library.datastructures.arrays.ReverseCopying;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

@@ -1,4 +1,6 @@
-package org.espire.library.arrays.twodimensional;
+package org.espire.library.datastructures.arrays;
+
+import org.espire.library.datastructures.arrays.JaggedArray;
 
 import java.util.Scanner;
 

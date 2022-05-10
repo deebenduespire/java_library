@@ -1,6 +1,4 @@
-package org.espire.library.arrays.swappingarray;
-
-import java.util.Scanner;
+package org.espire.library.datastructures.arrays;
 
 public class Main {
     public static void main(String[] args) {

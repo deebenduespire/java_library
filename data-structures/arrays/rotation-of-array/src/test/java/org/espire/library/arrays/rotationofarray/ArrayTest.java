@@ -1,5 +1,6 @@
 package org.espire.library.arrays.rotationofarray;
 
+import org.espire.library.datastructures.arrays.Array;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

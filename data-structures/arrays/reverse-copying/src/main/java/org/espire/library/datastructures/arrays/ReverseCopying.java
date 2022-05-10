@@ -1,4 +1,4 @@
-package org.espire.library.arrays.reversecopying;
+package org.espire.library.datastructures.arrays;
 
 public class ReverseCopying {
 

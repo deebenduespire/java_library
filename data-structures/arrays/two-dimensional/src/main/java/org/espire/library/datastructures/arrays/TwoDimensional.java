@@ -1,4 +1,4 @@
-package org.espire.library.arrays.twodimensional;
+package org.espire.library.datastructures.arrays;
 
 import java.util.Scanner;
 

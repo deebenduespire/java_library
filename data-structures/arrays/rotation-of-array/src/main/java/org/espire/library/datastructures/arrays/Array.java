@@ -1,4 +1,4 @@
-package org.espire.library.arrays.rotationofarray;
+package org.espire.library.datastructures.arrays;
 
 public class Array {
 
