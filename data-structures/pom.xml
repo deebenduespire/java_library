@@ -22,7 +22,6 @@
         <module>arrays</module>
         <module>binary-search-tree</module>
         <module>binary-tree</module>
-        <module>linked-list</module>
         <module>stack</module>
         <module>linked-list</module>
     </modules>
