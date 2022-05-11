@@ -1,19 +1,18 @@
-package org.espire.library.datastructures.linkedlist.singlyll;
+package org.espire.library.datastructures.queue.deque;
 
 class Node {
     protected int data;
     protected Node next;
 
-    public Node(int value) {
-        data = value;
-        next = null;
+    Node(int data) {
+        this.data = data;
+        this.next = null;
     }
 }
-
-public class SinglyCircularLinkedList {
+public class DequeDemo {
     private Node head;
 
-    SinglyCircularLinkedList() {
+    public DequeDemo() {
         head = null;
     }
 
@@ -52,19 +51,6 @@ public class SinglyCircularLinkedList {
         }
     }
 
-    public int count() {
-        Node temp = head;
-        int cnt = 0;
-
-        while (temp.next != head) {
-            cnt++;
-            temp = temp.next;
-        }
-        cnt++;
-
-        return cnt;
-    }
-
     public void deleteFirst() {
         if (head == null) {
             return;
@@ -97,59 +83,16 @@ public class SinglyCircularLinkedList {
         }
     }
 
-    public void insertAtPos(int no, int pos) {
-        int size = count();
-
-        if ((pos <= 0) || (pos > size + 1)) {
-            return;
-        }
-
-        if (pos == 1) {
-            insertFirst(no);
-        } else if (pos == (size + 1)) {
-            insertLast(no);
-        } else {
-            Node newNode = new Node(no);
-            Node temp = head;
-
-            for (int i = 1; i < pos - 1; i++) {
-                temp = temp.next;
-            }
-            newNode.next = temp.next;
-            temp.next = newNode;
-        }
-    }
-
-    public void deleteAtPos(int pos) {
-        int size = count();
-
-        if ((pos <= 0) || (pos > (size + 1))) {
-            return;
-        }
-
-        if (pos == 1) {
-            deleteFirst();
-        } else if (pos == (size + 1)) {
-            deleteLast();
-        } else {
-            Node temp = head;
-
-            for (int i = 1; i < pos - 1; i++) {
-                temp = temp.next;
-            }
-            temp.next = temp.next.next;
-        }
-    }
-
     public void display() {
         System.out.println("Nodes are : ");
         Node temp = head;
 
         while (temp.next != head) {
-            System.out.print(temp.data + " ");
+            System.out.print(temp.data + "->");
             temp = temp.next;
         }
-        System.out.print(temp.data + "");
+        System.out.print(temp.data + "->");
         System.out.println();
+
     }
 }

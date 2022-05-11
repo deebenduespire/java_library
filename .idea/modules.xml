@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-concepts/oops-concepts.iml" filepath="$PROJECT_DIR$/oops-concepts/oops-concepts.iml" />
       <module fileurl="file://$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/queue/queue.iml" filepath="$PROJECT_DIR$/data-structures/queue/queue.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" filepath="$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" />
       <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" />

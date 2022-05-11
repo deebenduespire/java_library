@@ -24,5 +24,6 @@
         <module>binary-tree</module>
         <module>stack</module>
         <module>linked-list</module>
+        <module>queue</module>
     </modules>
 </project>
