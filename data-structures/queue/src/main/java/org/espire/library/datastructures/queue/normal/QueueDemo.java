@@ -16,7 +16,8 @@ public class QueueDemo {
         head = null;
     }
 
-    public void insertFirst(int no) {
+    public void enqueue(int no) {
+        //insertFirst
         Node newNode = new Node(no);
 
         if(head == null)
@@ -43,7 +44,8 @@ public class QueueDemo {
         return cnt;
     }
 
-    public void deleteLast() {
+    public void dequeue() {
+        //deleteLast
         if(head == null)	// Empty
         {
             return;

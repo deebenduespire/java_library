@@ -5,15 +5,15 @@ public class Main {
         QueueDemo queue = new QueueDemo();
 
         System.out.println("-----------------------------");
-        queue.insertFirst(10);
-        queue.insertFirst(20);
-        queue.insertFirst(30);
-        queue.insertFirst(40);
+        queue.enqueue(10);
+        queue.enqueue(20);
+        queue.enqueue(30);
+        queue.enqueue(40);
         queue.display();
         //System.out.println();
         System.out.println("-----------------------------");
 
-        queue.deleteLast();
+        queue.dequeue();
         queue.display();
         System.out.println();
     }
