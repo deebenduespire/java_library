@@ -25,5 +25,6 @@
         <module>stack</module>
         <module>linked-list</module>
         <module>queue</module>
+        <module>string</module>
     </modules>
 </project>

@@ -7,25 +7,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="design-patterns" />
         <module name="analysis_of_algorithms" />
-        <module name="rotation-of-array" />
-        <module name="queue" />
-        <module name="inheritance" />
-        <module name="single-dimensional" />
-        <module name="abstraction" />
         <module name="array-of-objects" />
+        <module name="encapsulation" />
+        <module name="stack" />
+        <module name="string" />
+        <module name="swapping-array" />
+        <module name="abstraction" />
+        <module name="inheritance" />
+        <module name="polymorphism" />
         <module name="constructor_chaining" />
         <module name="copying-of-array" />
-        <module name="exception_handling" />
-        <module name="swapping-array" />
-        <module name="encapsulation" />
-        <module name="constructor_calling" />
-        <module name="stack" />
-        <module name="linked-list" />
-        <module name="two-dimensional" />
-        <module name="polymorphism" />
+        <module name="single-dimensional" />
         <module name="reverse-copying" />
+        <module name="two-dimensional" />
+        <module name="linked-list" />
+        <module name="rotation-of-array" />
+        <module name="constructor_calling" />
+        <module name="exception_handling" />
+        <module name="queue" />
+        <module name="design-patterns" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -62,6 +63,7 @@
       <module name="single-dimensional" target="11" />
       <module name="singledimensional" target="11" />
       <module name="stack" target="11" />
+      <module name="string" target="11" />
       <module name="swapping-array" target="11" />
       <module name="swappingarray" target="11" />
       <module name="two-dimensional" target="11" />
@@ -91,6 +93,7 @@
       <module name="single-dimensional" options="-parameters" />
       <module name="singledimensional" options="-parameters" />
       <module name="stack" options="-parameters" />
+      <module name="string" options="-parameters" />
       <module name="swapping-array" options="-parameters" />
       <module name="swappingarray" options="-parameters" />
       <module name="two-dimensional" options="-parameters" />
