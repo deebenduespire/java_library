@@ -11,6 +11,6 @@ public class ToUpperCase {
             }
             ++i;
         }
-        System.out.println();
+        System.out.println(array);
     }
 }

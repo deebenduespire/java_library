@@ -2,7 +2,7 @@ package org.espire.library.datastructures.linkedlist.singlyll;
 
 public class Main {
     public static void main(String[] args) {
-        SinglyCircularLinkedList scl = new SinglyCircularLinkedList();
+        SinglyLinkedList scl = new SinglyLinkedList();
 
         System.out.println("After insert first operation");
         scl.insertFirst(10);
