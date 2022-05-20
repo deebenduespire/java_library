@@ -3,29 +3,35 @@ package org.espire.library.datastructures.linkedlist.doublyll;
 
 public class Main {
     public static void main(String[] args) {
-        DoublyCircularLinkedList dcl = new DoublyCircularLinkedList();
-        System.out.println("---------------Insert First-------------------");
-        dcl.insertFirst(10);
-        dcl.insertFirst(20);
-        dcl.insertFirst(30);
-        dcl.display();
+        DoublyLinkedList dl = new DoublyLinkedList();
+
+        dl.insertFirst(10);
+        dl.insertFirst(20);
+        dl.insertFirst(30);
+        dl.insertLast(40);
+        dl.insertLast(50);
+
+        dl.display();
 
         System.out.println();
-        System.out.println("---------------Insert Last-------------------");
-        dcl.insertLast(40);
-        dcl.insertLast(50);
-        dcl.display();
+        System.out.println("---------- After deleting first operation ------------");
+        dl.deleteFirst();
 
-        System.out.println("");
-        System.out.println("---------------Delete First-------------------");
-        dcl.deleteFirst();
-        dcl.display();
+        dl.display();
 
         System.out.println();
-        System.out.println("--------------Delete Last--------------------");
-        dcl.deleteLast();
-        dcl.display();
+        System.out.println("---------- After deleting last operation ------------");
+        dl.deleteLast();
+        dl.display();
+
         System.out.println();
-        System.out.println("----------------------------------");
+        System.out.println("-------------------------------------");
+        dl.insertAtPos(60,5);
+        dl.display();
+
+        System.out.println();
+        System.out.println("-------------------------------------");
+        dl.deleteAtPos(2);
+        dl.display();
     }
 }

@@ -22,6 +22,7 @@
         <module>arrays</module>
         <module>binary-search-tree</module>
         <module>binary-tree</module>
+        <module>hashing</module>
         <module>stack</module>
         <module>linked-list</module>
         <module>queue</module>

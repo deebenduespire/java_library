@@ -80,12 +80,6 @@ public class DoublyCircularLinkedList {
         head.previous = tail;
     }
     public void display() {
-//        Node temp = head;
-//        while (temp.next != head) {
-//            System.out.print(temp.data+" ");
-//            temp = temp.next;
-//        }
-//        System.out.println(temp.data+" ");
         if(head == null && tail == null) {
             return;
         }

@@ -1,4 +1,8 @@
-org\espire\library\constructor\NoArgsConstructor.class
-org\espire\library\constructor\ArgsConstructor.class
-org\espire\library\constructor\ConstructorOverloading.class
-org\espire\library\constructor\CopyConstructor.class
+org\espire\library\constructor\argument\ArgsConstructor.class
+org\espire\library\constructor\noargument\MainClass.class
+org\espire\library\constructor\overloading\MainClass.class
+org\espire\library\constructor\copy\MainClass.class
+org\espire\library\constructor\argument\MainClass.class
+org\espire\library\constructor\noargument\NoArgsConstructor.class
+org\espire\library\constructor\copy\CopyConstructor.class
+org\espire\library\constructor\overloading\ConstructorOverloading.class
