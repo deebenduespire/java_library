@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/oops-concepts/abstraction/abstraction.iml" filepath="$PROJECT_DIR$/oops-concepts/abstraction/abstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/algorithms/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/array-of-objects/array-of-objects.iml" filepath="$PROJECT_DIR$/data-structures/arrays/array-of-objects/array-of-objects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/arrays.iml" filepath="$PROJECT_DIR$/data-structures/arrays/arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/binary-search-tree/binary-search-tree.iml" filepath="$PROJECT_DIR$/data-structures/binary-search-tree/binary-search-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/binary-tree/binary-tree.iml" filepath="$PROJECT_DIR$/data-structures/binary-tree/binary-tree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor.iml" filepath="$PROJECT_DIR$/constructor/constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" filepath="$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" filepath="$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/copying-of-array/copying-of-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/copying-of-array/copying-of-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/data-structures.iml" filepath="$PROJECT_DIR$/data-structures/data-structures.iml" />
+      <module fileurl="file://$PROJECT_DIR$/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/design-patterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exception_handling/exception_handling.iml" filepath="$PROJECT_DIR$/exception_handling/exception_handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/hashing/hashing.iml" filepath="$PROJECT_DIR$/data-structures/hashing/hashing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/heap/heap.iml" filepath="$PROJECT_DIR$/data-structures/heap/heap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library.iml" filepath="$PROJECT_DIR$/library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops-concepts/oops-concepts.iml" filepath="$PROJECT_DIR$/oops-concepts/oops-concepts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" filepath="$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/queue/queue.iml" filepath="$PROJECT_DIR$/data-structures/queue/queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" filepath="$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/stack/stack.iml" filepath="$PROJECT_DIR$/data-structures/stack/stack.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/string/string.iml" filepath="$PROJECT_DIR$/data-structures/string/string.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml" filepath="$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml" filepath="$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml" />
+    </modules>
+  </component>
+</project>

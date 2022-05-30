@@ -27,5 +27,7 @@
         <module>linked-list</module>
         <module>queue</module>
         <module>string</module>
+        <module>heap</module>
+
     </modules>
 </project>

@@ -1,0 +1,449 @@
+Index: data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/Main.java b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/Main.java	
+@@ -0,0 +1,19 @@
++package org.espire.library.datastructures.string.programs.palindrom;
++
++import java.util.Scanner;
++
++public class Main {
++    public static void main(String[] args) {
++        Scanner scan = new Scanner(System.in);
++        System.out.print("Enter the String :");
++        String str = scan.nextLine();
++        str = str.replace(" ", "");
++        str = str.toUpperCase();
++        char[] array = str.toCharArray();
++        int size = array.length;
++        char[] array1 = new char[size];
++        FindPalindrome find=new FindPalindrome();
++       find.palindrome(array,array1,size);
++
++    }
++}
+Index: data-structures/arrays/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/arrays/.gitignore b/data-structures/string/.gitignore
+rename from data-structures/arrays/.gitignore
+rename to data-structures/string/.gitignore
+--- a/data-structures/arrays/.gitignore	
++++ b/data-structures/string/.gitignore	
+@@ -1,5 +1,5 @@
+ HELP.md
+-target/
++../heap/target/
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/data-structures/binary-tree/.gitignore
+rename from .gitignore
+rename to data-structures/binary-tree/.gitignore
+--- a/.gitignore	
++++ b/data-structures/binary-tree/.gitignore	
+@@ -1,5 +1,5 @@
+ HELP.md
+-target/
++../binary-search-tree/target/
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+Index: data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Deletion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Deletion.java b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Deletion.java
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Deletion.java	
+@@ -0,0 +1,42 @@
++package org.espire.library.datastructure.heap.deletionInHeap;
++
++public class Deletion {
++
++    public static void heapify(int arr[],int n,int i){
++
++        int largest=i;  //root
++        int left=2*i;   //left
++        int right=2*i+1;//right
++        
++        if(left<n && arr[left]>arr[largest]){
++             largest = left;
++        }
++        if(right<n && arr[right]>arr[largest]){
++            largest = right;
++        }
++        if(largest!=i){
++            int swap=arr[i];
++            arr[i]=arr[largest];
++            arr[largest]=swap;
++            heapify(arr,n,largest);
++
++        }
++    }
++
++    public int deletion(int[] arr, int n){
++
++        int lastElement=arr[n-1];
++        arr[0]=lastElement;
++        n=n-1;
++        heapify(arr,n,0);
++        return n;
++    }
++    public static void printArray(int arr[],int n){
++        for(int i=0;i<n;i++){
++            System.out.print(arr[i]+" ");
++            System.out.println();
++
++        }
++
++    }
++}
+Index: data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Main.java b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Main.java	
+@@ -0,0 +1,27 @@
++package org.espire.library.datastructure.heap.InsertionInHeap;
++
++import java.util.Arrays;
++import java.util.Scanner;
++
++public class Main {
++    public static void main(String[] args){
++        Scanner scan =new Scanner(System.in);
++        int arr[]=new int[6];
++        arr[0] = 10;
++        arr[1]=5;
++        arr[2]=3;
++        arr[3]=2;
++        arr[4]=4;
++        int n=arr.length;
++        for(int i=0;i<arr.length;i++){
++            System.out.print(arr[i]+" ");
++        }
++        System.out.println();
++        System.out.print("Enter the key Element :");
++        int key = scan.nextInt();
++        Insertion insertion = new Insertion();
++        Insertion.insert(arr,n,key);
++        insertion.printArray(arr,n);
++
++    }
++}
+Index: data-structures/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.espire</groupId>\r\n        <artifactId>library</artifactId>\r\n        <version>1.0-SNAPSHOT</version>\r\n    </parent>\r\n    <packaging>pom</packaging>\r\n    <groupId>org.espire.library</groupId>\r\n    <artifactId>data-structures</artifactId>\r\n    <version>1.0-SNAPSHOT</version>\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.junit.jupiter</groupId>\r\n            <artifactId>junit-jupiter-api</artifactId>\r\n        </dependency>\r\n    </dependencies>\r\n    <modules>\r\n        <module>arrays</module>\r\n        <module>binary-search-tree</module>\r\n        <module>binary-tree</module>\r\n        <module>stack</module>\r\n        <module>linked-list</module>\r\n        <module>queue</module>\r\n        <module>string</module>\r\n    </modules>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/pom.xml b/data-structures/pom.xml
+--- a/data-structures/pom.xml	
++++ b/data-structures/pom.xml	
+@@ -26,5 +26,7 @@
+         <module>linked-list</module>
+         <module>queue</module>
+         <module>string</module>
++        <module>heap</module>
++
+     </modules>
+ </project>
+\ No newline at end of file
+Index: data-structures/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>HELP.md\r\ntarget/\r\n!.mvn/wrapper/maven-wrapper.jar\r\n!**/src/main/**/target/\r\n!**/src/test/**/target/\r\n\r\n### STS ###\r\n.apt_generated\r\n.classpath\r\n.factorypath\r\n.project\r\n.settings\r\n.springBeans\r\n.sts4-cache\r\n\r\n### IntelliJ IDEA ###\r\n.idea\r\n*.iws\r\n*.iml\r\n*.ipr\r\n\r\n### NetBeans ###\r\n/nbproject/private/\r\n/nbbuild/\r\n/dist/\r\n/nbdist/\r\n/.nb-gradle/\r\nbuild/\r\n!**/src/main/**/build/\r\n!**/src/test/**/build/\r\n\r\n### VS Code ###\r\n.vscode/\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/.gitignore b/data-structures/.gitignore
+--- a/data-structures/.gitignore	
++++ b/data-structures/.gitignore	
+@@ -1,5 +1,5 @@
+ HELP.md
+-target/
++../binary-search-tree/target/
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+Index: data-structures/heap/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/.gitignore b/data-structures/heap/.gitignore
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/.gitignore	
+@@ -0,0 +1,33 @@
++HELP.md
++../binary-search-tree/target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
++### STS ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### IntelliJ IDEA ###
++.idea
++*.iws
++*.iml
++*.ipr
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
+Index: data-structures/arrays/array-of-objects/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/arrays/array-of-objects/.gitignore b/data-structures/binary-search-tree/.gitignore
+rename from data-structures/arrays/array-of-objects/.gitignore
+rename to data-structures/binary-search-tree/.gitignore
+--- a/data-structures/arrays/array-of-objects/.gitignore	
++++ b/data-structures/binary-search-tree/.gitignore	
+@@ -1,5 +1,5 @@
+ HELP.md
+-target/
++../binary-search-tree/target/
+ !.mvn/wrapper/maven-wrapper.jar
+ !**/src/main/**/target/
+ !**/src/test/**/target/
+@@ -16,6 +16,7 @@
+ ### IntelliJ IDEA ###
+ .idea
+ *.iws
++*.iml
+ *.ipr
+ 
+ ### NetBeans ###
+Index: data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Insertion.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Insertion.java b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Insertion.java
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/InsertionInHeap/Insertion.java	
+@@ -0,0 +1,37 @@
++package org.espire.library.datastructure.heap.InsertionInHeap;
++
++public class Insertion {
++
++    public static void heapify(int arr[],int n,int i){
++        int parent=(i-1)/2;
++
++            if(arr[parent]>0){
++                if(arr[i]>arr[parent]){
++                    swap(arr,i,parent);
++                    heapify(arr,n,parent);
++                }
++            }
++        }
++
++    public static int[] swap(int[] arr,int i,int parent){
++        int swap = arr[i];
++        arr[i] = arr[parent];
++        arr[parent] = swap;
++        return arr;
++    }
++
++    public static void insert(int arr[],int n,int key){
++      //  n=n+1;
++        arr[n-1]=key;
++        heapify(arr,n,n-1);
++    }
++    public void printArray(int arr[],int n){
++
++        for(int i=0;i<n;i++){
++            System.out.print(arr[i]+" ");
++
++        }
++        System.out.println();
++    }
++
++}
+Index: data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/ReverseString.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/ReverseString.java b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/reveresestring/ReverseString.java
+rename from data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/ReverseString.java
+rename to data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/reveresestring/ReverseString.java
+--- a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/ReverseString.java	
++++ b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/reveresestring/ReverseString.java	
+@@ -1,4 +1,4 @@
+-package org.espire.library.datastructures.string.programs;
++package org.espire.library.datastructures.string.programs.reveresestring;
+ 
+ public class ReverseString {
+     public static void main(String[] args){
+Index: data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/CopyingArray.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/CopyingArray.java b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/copyingofarray/CopyingArray.java
+rename from data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/CopyingArray.java
+rename to data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/copyingofarray/CopyingArray.java
+--- a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/CopyingArray.java	
++++ b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/copyingofarray/CopyingArray.java	
+@@ -1,4 +1,4 @@
+-package org.espire.library.datastructures.string.programs;
++package org.espire.library.datastructures.string.programs.copyingofarray;
+ 
+ public class CopyingArray {
+     public static void main(String args[]){
+Index: data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/FindPalindrome.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/FindPalindrome.java b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/FindPalindrome.java
+rename from data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/FindPalindrome.java
+rename to data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/FindPalindrome.java
+--- a/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/FindPalindrome.java	
++++ b/data-structures/string/src/main/java/org/espire/library/datastructures/string/programs/palindrom/FindPalindrome.java	
+@@ -1,19 +1,11 @@
+-package org.espire.library.datastructures.string.programs;
++package org.espire.library.datastructures.string.programs.palindrom;
+ 
+ import java.util.Locale;
+ import java.util.Scanner;
+ 
+ public class FindPalindrome {
+ 
+-    public static void main(String[] args){
+-        Scanner scan = new Scanner(System.in);
+-        System.out.print("Enter the String :");
+-        String str= scan.nextLine();
+-        str=str.replace(" ","");
+-        str=str.toUpperCase();
+-        char[] array = str.toCharArray();
+-        int size=array.length;
+-        char[] array1 = new char[size];
++   public static void palindrome(char[] array,char[] array1,int size){
+         int i=0;
+         while(i!=size){
+             array1[size-1-i]=array[i];
+@@ -34,4 +26,5 @@
+ 
+ 
+     }
++
+ }
+Index: pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project xmlns=\"http://maven.apache.org/POM/4.0.0\"\r\n         xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\"\r\n         xsi:schemaLocation=\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\">\r\n    <modelVersion>4.0.0</modelVersion>\r\n    <parent>\r\n        <groupId>org.springframework.boot</groupId>\r\n        <artifactId>spring-boot-starter-parent</artifactId>\r\n        <version>2.4.1</version>\r\n        <relativePath/> <!-- lookup parent from repository -->\r\n    </parent>\r\n    <groupId>org.espire</groupId>\r\n    <artifactId>library</artifactId>\r\n    <packaging>pom</packaging>\r\n    <version>1.0-SNAPSHOT</version>\r\n\r\n    <modules>\r\n        <module>algorithms</module>\r\n        <module>oops-concepts</module>\r\n        <module>constructor</module>\r\n        <module>exception_handling</module>\r\n        <module>design-patterns</module>\r\n        <module>data-structures</module>\r\n    </modules>\r\n\r\n    <properties>\r\n        <maven.compiler.source>11</maven.compiler.source>\r\n        <maven.compiler.target>11</maven.compiler.target>\r\n    </properties>\r\n\r\n    <dependencyManagement>\r\n        <dependencies>\r\n            <dependency>\r\n                <groupId>org.espire.library</groupId>\r\n                <artifactId>design-patterns</artifactId>\r\n                <version>1.0-SNAPSHOT</version>\r\n            </dependency>\r\n            <dependency>\r\n                <groupId>org.junit.jupiter</groupId>\r\n                <artifactId>junit-jupiter-api</artifactId>\r\n                <version>5.7.0</version>\r\n                <scope>test</scope>\r\n            </dependency>\r\n        </dependencies>\r\n    </dependencyManagement>\r\n\r\n    <dependencies>\r\n        <dependency>\r\n            <groupId>org.projectlombok</groupId>\r\n            <artifactId>lombok</artifactId>\r\n            <version>1.18.22</version>\r\n            <optional>true</optional>\r\n        </dependency>\r\n    </dependencies>\r\n\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pom.xml b/pom.xml
+--- a/pom.xml	
++++ b/pom.xml	
+@@ -21,6 +21,7 @@
+         <module>exception_handling</module>
+         <module>design-patterns</module>
+         <module>data-structures</module>
++
+     </modules>
+ 
+     <properties>
+Index: data-structures/heap/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/pom.xml b/data-structures/heap/pom.xml
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/pom.xml	
+@@ -0,0 +1,20 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project xmlns="http://maven.apache.org/POM/4.0.0"
++         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
++
++    <parent>
++        <artifactId>data-structures</artifactId>
++        <groupId>org.espire.library</groupId>
++        <version>1.0-SNAPSHOT</version>
++    </parent>
++    <modelVersion>4.0.0</modelVersion>
++
++    <artifactId>heap</artifactId>
++
++    <properties>
++        <maven.compiler.source>11</maven.compiler.source>
++        <maven.compiler.target>11</maven.compiler.target>
++    </properties>
++
++</project>
+\ No newline at end of file
+Index: data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Main.java b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Main.java
+new file mode 100644
+--- /dev/null	
++++ b/data-structures/heap/src/main/java/org/espire/library/datastructure/heap/deletionInHeap/Main.java	
+@@ -0,0 +1,17 @@
++package org.espire.library.datastructure.heap.deletionInHeap;
++
++import org.espire.library.datastructure.heap.deletionInHeap.Deletion;
++
++import java.util.Scanner;
++
++public class Main {
++    public static void main(String[] args){
++
++        int arr[] = { 10, 5, 3, 2, 4 };
++        int n = arr.length;
++        Deletion delete = new Deletion();
++        n = delete.deletion(arr, n);
++        delete.printArray(arr, n);
++
++    }
++}

@@ -21,6 +21,7 @@
         <module>exception_handling</module>
         <module>design-patterns</module>
         <module>data-structures</module>
+
     </modules>
 
     <properties>

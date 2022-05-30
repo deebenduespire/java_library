@@ -1,0 +1,140 @@
+Index: constructor/constructor_chaining/constructor_chaining.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"CheckStyle-IDEA-Module\">\r\n    <option name=\"configuration\">\r\n      <map />\r\n    </option>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.18.22\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/constructor/constructor_chaining/constructor_chaining.iml b/constructor/constructor_chaining/constructor_chaining.iml
+--- a/constructor/constructor_chaining/constructor_chaining.iml	
++++ b/constructor/constructor_chaining/constructor_chaining.iml	
+@@ -1,10 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+Index: .idea/compiler.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CompilerConfiguration\">\r\n    <annotationProcessing>\r\n      <profile default=\"true\" name=\"Default\" enabled=\"true\" />\r\n      <profile name=\"Maven default annotation processors profile\" enabled=\"true\">\r\n        <sourceOutputDir name=\"target/generated-sources/annotations\" />\r\n        <sourceTestOutputDir name=\"target/generated-test-sources/test-annotations\" />\r\n        <outputRelativeToContentRoot value=\"true\" />\r\n        <module name=\"analysis_of_algorithms\" />\r\n        <module name=\"array-of-objects\" />\r\n        <module name=\"encapsulation\" />\r\n        <module name=\"stack\" />\r\n        <module name=\"string\" />\r\n        <module name=\"swapping-array\" />\r\n        <module name=\"abstraction\" />\r\n        <module name=\"inheritance\" />\r\n        <module name=\"polymorphism\" />\r\n        <module name=\"constructor_chaining\" />\r\n        <module name=\"copying-of-array\" />\r\n        <module name=\"single-dimensional\" />\r\n        <module name=\"reverse-copying\" />\r\n        <module name=\"two-dimensional\" />\r\n        <module name=\"linked-list\" />\r\n        <module name=\"rotation-of-array\" />\r\n        <module name=\"constructor_calling\" />\r\n        <module name=\"exception_handling\" />\r\n        <module name=\"queue\" />\r\n        <module name=\"design-patterns\" />\r\n      </profile>\r\n    </annotationProcessing>\r\n    <bytecodeTargetLevel>\r\n      <module name=\"abstraction\" target=\"11\" />\r\n      <module name=\"algorithms\" target=\"11\" />\r\n      <module name=\"analysis_of_algorithms\" target=\"11\" />\r\n      <module name=\"array-of-objects\" target=\"11\" />\r\n      <module name=\"arrays\" target=\"11\" />\r\n      <module name=\"binary-search-tree\" target=\"11\" />\r\n      <module name=\"binary-tree\" target=\"11\" />\r\n      <module name=\"binarysearchtree\" target=\"11\" />\r\n      <module name=\"binarytree\" target=\"11\" />\r\n      <module name=\"constructor\" target=\"11\" />\r\n      <module name=\"constructor_calling\" target=\"11\" />\r\n      <module name=\"constructor_chaining\" target=\"11\" />\r\n      <module name=\"copying-of-array\" target=\"11\" />\r\n      <module name=\"copyingofarray\" target=\"11\" />\r\n      <module name=\"data-structures\" target=\"11\" />\r\n      <module name=\"design-patterns\" target=\"11\" />\r\n      <module name=\"encapsulation\" target=\"11\" />\r\n      <module name=\"exception_handling\" target=\"11\" />\r\n      <module name=\"inheritance\" target=\"11\" />\r\n      <module name=\"java_library\" target=\"11\" />\r\n      <module name=\"linked-list\" target=\"11\" />\r\n      <module name=\"linked_list\" target=\"11\" />\r\n      <module name=\"linkedlist\" target=\"11\" />\r\n      <module name=\"oops-concepts\" target=\"11\" />\r\n      <module name=\"polymorphism\" target=\"11\" />\r\n      <module name=\"queue\" target=\"11\" />\r\n      <module name=\"reverse-copying\" target=\"11\" />\r\n      <module name=\"reversecopying\" target=\"11\" />\r\n      <module name=\"rotation-of-array\" target=\"11\" />\r\n      <module name=\"rotationofarray\" target=\"11\" />\r\n      <module name=\"single-dimensional\" target=\"11\" />\r\n      <module name=\"singledimensional\" target=\"11\" />\r\n      <module name=\"stack\" target=\"11\" />\r\n      <module name=\"string\" target=\"11\" />\r\n      <module name=\"swapping-array\" target=\"11\" />\r\n      <module name=\"swappingarray\" target=\"11\" />\r\n      <module name=\"two-dimensional\" target=\"11\" />\r\n    </bytecodeTargetLevel>\r\n  </component>\r\n  <component name=\"JavacSettings\">\r\n    <option name=\"ADDITIONAL_OPTIONS_OVERRIDE\">\r\n      <module name=\"abstraction\" options=\"-parameters\" />\r\n      <module name=\"array-of-objects\" options=\"-parameters\" />\r\n      <module name=\"constructor_calling\" options=\"-parameters\" />\r\n      <module name=\"constructor_chaining\" options=\"-parameters\" />\r\n      <module name=\"copying-of-array\" options=\"-parameters\" />\r\n      <module name=\"copyingofarray\" options=\"-parameters\" />\r\n      <module name=\"design-patterns\" options=\"-parameters\" />\r\n      <module name=\"encapsulation\" options=\"-parameters\" />\r\n      <module name=\"exception_handling\" options=\"-parameters\" />\r\n      <module name=\"inheritance\" options=\"-parameters\" />\r\n      <module name=\"linked-list\" options=\"-parameters\" />\r\n      <module name=\"linked_list\" options=\"-parameters\" />\r\n      <module name=\"linkedlist\" options=\"-parameters\" />\r\n      <module name=\"polymorphism\" options=\"-parameters\" />\r\n      <module name=\"queue\" options=\"-parameters\" />\r\n      <module name=\"reverse-copying\" options=\"-parameters\" />\r\n      <module name=\"reversecopying\" options=\"-parameters\" />\r\n      <module name=\"rotation-of-array\" options=\"-parameters\" />\r\n      <module name=\"rotationofarray\" options=\"-parameters\" />\r\n      <module name=\"single-dimensional\" options=\"-parameters\" />\r\n      <module name=\"singledimensional\" options=\"-parameters\" />\r\n      <module name=\"stack\" options=\"-parameters\" />\r\n      <module name=\"string\" options=\"-parameters\" />\r\n      <module name=\"swapping-array\" options=\"-parameters\" />\r\n      <module name=\"swappingarray\" options=\"-parameters\" />\r\n      <module name=\"two-dimensional\" options=\"-parameters\" />\r\n    </option>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+--- a/.idea/compiler.xml	
++++ b/.idea/compiler.xml	
+@@ -24,6 +24,7 @@
+         <module name="linked-list" />
+         <module name="rotation-of-array" />
+         <module name="constructor_calling" />
++        <module name="heap" />
+         <module name="exception_handling" />
+         <module name="queue" />
+         <module name="design-patterns" />
+@@ -48,6 +49,7 @@
+       <module name="design-patterns" target="11" />
+       <module name="encapsulation" target="11" />
+       <module name="exception_handling" target="11" />
++      <module name="heap" target="11" />
+       <module name="inheritance" target="11" />
+       <module name="java_library" target="11" />
+       <module name="linked-list" target="11" />
+@@ -80,6 +82,7 @@
+       <module name="design-patterns" options="-parameters" />
+       <module name="encapsulation" options="-parameters" />
+       <module name="exception_handling" options="-parameters" />
++      <module name="heap" options="-parameters" />
+       <module name="inheritance" options="-parameters" />
+       <module name="linked-list" options="-parameters" />
+       <module name="linked_list" options="-parameters" />
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"MavenProjectsManager\">\r\n    <option name=\"originalFiles\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/algorithms/analysis_of_algorithms/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/arrays/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/data-structures/arrays/twodimensional/pom.xml\" />\r\n      </list>\r\n    </option>\r\n    <option name=\"ignoredFiles\">\r\n      <set>\r\n        <option value=\"$PROJECT_DIR$/arrayofobjects/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/singledimensional/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/string/pom.xml\" />\r\n      </set>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectRootManager\" version=\"2\" languageLevel=\"JDK_11\" project-jdk-name=\"11\" project-jdk-type=\"JavaSDK\">\r\n    <output url=\"file://$PROJECT_DIR$/out\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+--- a/.idea/misc.xml	
++++ b/.idea/misc.xml	
+@@ -12,6 +12,7 @@
+     <option name="ignoredFiles">
+       <set>
+         <option value="$PROJECT_DIR$/arrayofobjects/pom.xml" />
++        <option value="$PROJECT_DIR$/heap/pom.xml" />
+         <option value="$PROJECT_DIR$/singledimensional/pom.xml" />
+         <option value="$PROJECT_DIR$/string/pom.xml" />
+       </set>
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ProjectModuleManager\">\r\n    <modules>\r\n      <module fileurl=\"file://$PROJECT_DIR$/oops-concepts/abstraction/abstraction.iml\" filepath=\"$PROJECT_DIR$/oops-concepts/abstraction/abstraction.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/algorithms/algorithms.iml\" filepath=\"$PROJECT_DIR$/algorithms/algorithms.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml\" filepath=\"$PROJECT_DIR$/algorithms/analysis_of_algorithms/analysis_of_algorithms.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/array-of-objects/array-of-objects.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/array-of-objects/array-of-objects.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/arrays.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/arrays.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/binary-search-tree/binary-search-tree.iml\" filepath=\"$PROJECT_DIR$/data-structures/binary-search-tree/binary-search-tree.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/binary-tree/binary-tree.iml\" filepath=\"$PROJECT_DIR$/data-structures/binary-tree/binary-tree.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/constructor/constructor.iml\" filepath=\"$PROJECT_DIR$/constructor/constructor.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml\" filepath=\"$PROJECT_DIR$/constructor/constructor_calling/constructor_calling.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml\" filepath=\"$PROJECT_DIR$/constructor/constructor_chaining/constructor_chaining.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/copying-of-array/copying-of-array.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/copying-of-array/copying-of-array.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/data-structures.iml\" filepath=\"$PROJECT_DIR$/data-structures/data-structures.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/design-patterns/design-patterns.iml\" filepath=\"$PROJECT_DIR$/design-patterns/design-patterns.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml\" filepath=\"$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/exception_handling/exception_handling.iml\" filepath=\"$PROJECT_DIR$/exception_handling/exception_handling.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml\" filepath=\"$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/.idea/java_library.iml\" filepath=\"$PROJECT_DIR$/.idea/java_library.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/linked-list/linked-list.iml\" filepath=\"$PROJECT_DIR$/data-structures/linked-list/linked-list.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/oops-concepts/oops-concepts.iml\" filepath=\"$PROJECT_DIR$/oops-concepts/oops-concepts.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml\" filepath=\"$PROJECT_DIR$/oops-concepts/polymorphism/polymorphism.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/queue/queue.iml\" filepath=\"$PROJECT_DIR$/data-structures/queue/queue.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/reverse-copying/reverse-copying.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/rotation-of-array/rotation-of-array.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/single-dimensional/single-dimensional.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/stack/stack.iml\" filepath=\"$PROJECT_DIR$/data-structures/stack/stack.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/string/string.iml\" filepath=\"$PROJECT_DIR$/data-structures/string/string.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/swapping-array/swapping-array.iml\" />\r\n      <module fileurl=\"file://$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml\" filepath=\"$PROJECT_DIR$/data-structures/arrays/two-dimensional/two-dimensional.iml\" />\r\n    </modules>\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+--- a/.idea/modules.xml	
++++ b/.idea/modules.xml	
+@@ -17,6 +17,7 @@
+       <module fileurl="file://$PROJECT_DIR$/design-patterns/design-patterns.iml" filepath="$PROJECT_DIR$/design-patterns/design-patterns.iml" />
+       <module fileurl="file://$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml" filepath="$PROJECT_DIR$/oops-concepts/encapsulation/encapsulation.iml" />
+       <module fileurl="file://$PROJECT_DIR$/exception_handling/exception_handling.iml" filepath="$PROJECT_DIR$/exception_handling/exception_handling.iml" />
++      <module fileurl="file://$PROJECT_DIR$/data-structures/heap/heap.iml" filepath="$PROJECT_DIR$/data-structures/heap/heap.iml" />
+       <module fileurl="file://$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" filepath="$PROJECT_DIR$/oops-concepts/inheritance/inheritance.iml" />
+       <module fileurl="file://$PROJECT_DIR$/.idea/java_library.iml" filepath="$PROJECT_DIR$/.idea/java_library.iml" />
+       <module fileurl="file://$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" filepath="$PROJECT_DIR$/data-structures/linked-list/linked-list.iml" />
+Index: constructor/constructor_calling/constructor_calling.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"CheckStyle-IDEA-Module\">\r\n    <option name=\"configuration\">\r\n      <map />\r\n    </option>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.18.22\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/constructor/constructor_calling/constructor_calling.iml b/constructor/constructor_calling/constructor_calling.iml
+--- a/constructor/constructor_calling/constructor_calling.iml	
++++ b/constructor/constructor_calling/constructor_calling.iml	
+@@ -1,10 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+Index: design-patterns/design-patterns.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"CheckStyle-IDEA-Module\">\r\n    <option name=\"configuration\">\r\n      <map />\r\n    </option>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/java\" isTestSource=\"false\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/main/resources\" type=\"java-resource\" />\r\n      <sourceFolder url=\"file://$MODULE_DIR$/src/test/java\" isTestSource=\"true\" />\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.javatuples:javatuples:1.2\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.apache.commons:commons-lang3:3.12.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.18.22\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/design-patterns/design-patterns.iml b/design-patterns/design-patterns.iml
+--- a/design-patterns/design-patterns.iml	
++++ b/design-patterns/design-patterns.iml	
+@@ -1,10 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
+Index: constructor/constructor.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule=\"true\" type=\"JAVA_MODULE\" version=\"4\">\r\n  <component name=\"CheckStyle-IDEA-Module\">\r\n    <option name=\"configuration\">\r\n      <map />\r\n    </option>\r\n  </component>\r\n  <component name=\"NewModuleRootManager\" LANGUAGE_LEVEL=\"JDK_11\">\r\n    <output url=\"file://$MODULE_DIR$/target/classes\" />\r\n    <output-test url=\"file://$MODULE_DIR$/target/test-classes\" />\r\n    <content url=\"file://$MODULE_DIR$\">\r\n      <excludeFolder url=\"file://$MODULE_DIR$/target\" />\r\n    </content>\r\n    <orderEntry type=\"inheritedJdk\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.jupiter:junit-jupiter-api:5.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.apiguardian:apiguardian-api:1.1.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.opentest4j:opentest4j:1.2.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" scope=\"TEST\" name=\"Maven: org.junit.platform:junit-platform-commons:1.7.0\" level=\"project\" />\r\n    <orderEntry type=\"library\" name=\"Maven: org.projectlombok:lombok:1.18.22\" level=\"project\" />\r\n  </component>\r\n</module>
+===================================================================
+diff --git a/constructor/constructor.iml b/constructor/constructor.iml
+--- a/constructor/constructor.iml	
++++ b/constructor/constructor.iml	
+@@ -1,10 +1,5 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+-  <component name="CheckStyle-IDEA-Module">
+-    <option name="configuration">
+-      <map />
+-    </option>
+-  </component>
+   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
+     <output url="file://$MODULE_DIR$/target/classes" />
+     <output-test url="file://$MODULE_DIR$/target/test-classes" />
